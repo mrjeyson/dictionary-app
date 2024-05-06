@@ -4,8 +4,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.jsoft.dictionaryapp.presentation.event.MainUiEvents
 import com.jsoft.dictionaryapp.presentation.state.MainState
-import com.jsoft.domain.repository.DictionaryRepository
-import com.jsoft.util.Result
+import com.jsoft.dictionaryapp.domain.repository.DictionaryRepository
+import com.jsoft.dictionaryapp.util.Result
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow

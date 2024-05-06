@@ -48,8 +48,8 @@ import com.jsoft.dictionaryapp.presentation.event.MainUiEvents
 import com.jsoft.dictionaryapp.presentation.state.MainState
 import com.jsoft.dictionaryapp.presentation.viewmodel.MainViewModel
 import com.jsoft.dictionaryapp.ui.theme.DictionaryAppTheme
-import com.jsoft.domain.model.Meaning
-import com.jsoft.domain.model.WordItem
+import com.jsoft.dictionaryapp.domain.model.Meaning
+import com.jsoft.dictionaryapp.domain.model.WordItem
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

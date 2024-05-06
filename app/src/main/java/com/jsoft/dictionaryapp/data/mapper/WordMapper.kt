@@ -3,9 +3,9 @@ package com.jsoft.dictionaryapp.data.mapper
 import com.jsoft.dictionaryapp.data.dto.DefinitionDto
 import com.jsoft.dictionaryapp.data.dto.MeaningDto
 import com.jsoft.dictionaryapp.data.dto.WordItemDto
-import com.jsoft.domain.model.Definition
-import com.jsoft.domain.model.Meaning
-import com.jsoft.domain.model.WordItem
+import com.jsoft.dictionaryapp.domain.model.Definition
+import com.jsoft.dictionaryapp.domain.model.Meaning
+import com.jsoft.dictionaryapp.domain.model.WordItem
 
 fun WordItemDto.toWordItem() = WordItem(
     word = word ?: "",

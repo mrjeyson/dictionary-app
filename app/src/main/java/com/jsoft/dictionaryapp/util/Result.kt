@@ -1,4 +1,4 @@
-package com.jsoft.util
+package com.jsoft.dictionaryapp.util
 
 
 sealed class Result<T>(

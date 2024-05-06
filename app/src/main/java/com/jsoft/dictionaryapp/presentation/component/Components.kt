@@ -25,9 +25,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import com.jsoft.dictionaryapp.R
-import com.jsoft.domain.model.Definition
-import com.jsoft.domain.model.Meaning
-import com.jsoft.domain.model.WordItem
+import com.jsoft.dictionaryapp.domain.model.Definition
+import com.jsoft.dictionaryapp.domain.model.Meaning
+import com.jsoft.dictionaryapp.domain.model.WordItem
 
 @Composable
 fun WordResult(wordItem: WordItem) {

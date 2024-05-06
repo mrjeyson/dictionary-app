@@ -4,9 +4,9 @@ import android.app.Application
 import com.jsoft.dictionaryapp.R
 import com.jsoft.dictionaryapp.data.api.DictionaryApi
 import com.jsoft.dictionaryapp.data.mapper.toWordItem
-import com.jsoft.domain.model.WordItem
-import com.jsoft.domain.repository.DictionaryRepository
-import com.jsoft.util.Result
+import com.jsoft.dictionaryapp.domain.model.WordItem
+import com.jsoft.dictionaryapp.domain.repository.DictionaryRepository
+import com.jsoft.dictionaryapp.util.Result
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import retrofit2.HttpException

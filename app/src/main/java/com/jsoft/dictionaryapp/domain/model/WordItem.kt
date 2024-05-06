@@ -1,4 +1,4 @@
-package com.jsoft.domain.model
+package com.jsoft.dictionaryapp.domain.model
 
 data class WordItem(
     val word: String,

@@ -1,5 +1,6 @@
-package com.jsoft.dictionaryapp.data.api
+package com.jsoft.dictionaryapp.di
 
+import com.jsoft.dictionaryapp.data.api.DictionaryApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

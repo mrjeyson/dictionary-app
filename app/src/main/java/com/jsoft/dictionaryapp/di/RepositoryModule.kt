@@ -1,7 +1,7 @@
 package com.jsoft.dictionaryapp.di
 
 import com.jsoft.dictionaryapp.data.DictionaryRepositoryImpl
-import com.jsoft.domain.repository.DictionaryRepository
+import com.jsoft.dictionaryapp.domain.repository.DictionaryRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
