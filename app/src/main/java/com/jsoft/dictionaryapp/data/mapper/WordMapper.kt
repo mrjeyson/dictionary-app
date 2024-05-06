@@ -22,8 +22,8 @@ fun MeaningDto.toMeaning() = Meaning(
 )
 
 fun definitionDtoDefinition(
-    definitionDto: DefinitionDto
+    definitionDto: DefinitionDto?
 ) = Definition(
-    definition = definitionDto.definition ?: "",
-    example = definitionDto.example ?: ""
+    definition = definitionDto?.definition ?: "",
+    example = definitionDto?.example ?: ""
 )

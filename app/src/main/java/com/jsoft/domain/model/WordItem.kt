@@ -1,7 +1,7 @@
 package com.jsoft.domain.model
 
 data class WordItem(
-    val meanings: List<Meaning>? = null,
-    val phonetic: String? = null,
-    val word: String? = null
+    val word: String,
+    val meanings: List<Meaning>,
+    val phonetic: String
 )

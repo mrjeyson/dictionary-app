@@ -14,6 +14,7 @@ interface RepositoryModule {
 
     @Binds
     @Singleton
+
     fun getDictionaryRepository(
         dictionaryRepositoryImpl: DictionaryRepositoryImpl
     ): DictionaryRepository
