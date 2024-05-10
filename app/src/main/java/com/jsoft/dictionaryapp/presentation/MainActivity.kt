@@ -108,7 +108,6 @@ class MainActivity : ComponentActivity() {
                     ) {
                         MainScreen(mainState)
                     }
-
                 }
             }
         }
@@ -131,9 +130,7 @@ class MainActivity : ComponentActivity() {
                     .background(MaterialTheme.colorScheme.background)
                     .padding(horizontal = 30.dp)
             ) {
-
                 mainState.wordItem?.let { wordItem ->
-
                     Spacer(modifier = Modifier.height(20.dp))
 
                     Text(

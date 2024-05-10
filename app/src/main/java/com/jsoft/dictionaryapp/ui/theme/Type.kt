@@ -18,5 +18,4 @@ val Typography = Typography(
         fontFamily = font,
         fontSize = 16.sp,
     )
-
 )

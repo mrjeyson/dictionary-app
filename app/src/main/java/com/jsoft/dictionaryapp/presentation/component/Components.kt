@@ -117,7 +117,6 @@ fun Example(definition: Definition) {
         Row(
             modifier = Modifier.padding(horizontal = 8.dp)
         ) {
-
             Text(
                 text = stringResource(R.string.example),
                 fontWeight = FontWeight.SemiBold,
