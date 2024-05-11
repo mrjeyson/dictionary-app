@@ -40,7 +40,6 @@ class DictionaryRepositoryImpl @Inject constructor(
                 emit(Result.Loading(false))
                 return@flow
             }
-
             remoteWordResultDto?.let { wordResultDto ->
                 wordResultDto[0]?.let { wordItemDto ->
                     emit(Result.Success(wordItemDto.toWordItem()))
