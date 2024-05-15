@@ -91,7 +91,6 @@ class MainActivity : ComponentActivity() {
                         )
                     )
                 }) { paddingValues ->
-
                     Box(
                         modifier = Modifier
                             .fillMaxSize()
@@ -112,8 +111,6 @@ class MainActivity : ComponentActivity() {
             modifier = Modifier
                 .fillMaxSize()
         ) {
-
-
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -129,9 +126,7 @@ class MainActivity : ComponentActivity() {
                         fontWeight = FontWeight.SemiBold,
                         color = MaterialTheme.colorScheme.primary
                     )
-
                     Spacer(modifier = Modifier.height(8.dp))
-
                     Text(
                         text = wordItem.phonetic,
                         fontSize = 17.sp,
@@ -164,10 +159,7 @@ class MainActivity : ComponentActivity() {
                         WordResult(wordItem)
                     }
                 }
-
-
             }
-
         }
     }
 }
