@@ -13,6 +13,8 @@ import retrofit2.HttpException
 import java.io.IOException
 import javax.inject.Inject
 
+
+
 class DictionaryRepositoryImpl @Inject constructor(
     private val dictionaryApi: DictionaryApi,
     private val application: Application
