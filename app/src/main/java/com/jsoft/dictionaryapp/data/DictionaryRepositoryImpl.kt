@@ -20,6 +20,7 @@ class DictionaryRepositoryImpl @Inject constructor(
     private val application: Application
 ) : DictionaryRepository {
     override suspend fun getWord(word: String): Flow<Result<WordItem>> {
+
         return flow {
             emit(Result.Loading(true))
             val remoteWordResultDto = try {
@@ -29,6 +30,7 @@ class DictionaryRepositoryImpl @Inject constructor(
                 emit(Result.Error(application.getString(R.string.can_t_get_result)))
                 emit(Result.Loading(false))
                 return@flow
+
 
             } catch (e: IOException) {
                 e.printStackTrace()
