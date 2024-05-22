@@ -52,6 +52,7 @@ class DictionaryRepositoryImpl @Inject constructor(
                 }
             }
 
+
             emit(Result.Loading(false))
         }
     }

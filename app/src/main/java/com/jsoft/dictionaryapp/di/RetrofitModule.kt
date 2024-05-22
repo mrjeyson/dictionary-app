@@ -48,4 +48,5 @@ object RetrofitModule {
         .client(client)
         .addConverterFactory(GsonConverterFactory.create())
         .build()
+
 }
