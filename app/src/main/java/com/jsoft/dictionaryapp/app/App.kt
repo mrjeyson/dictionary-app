@@ -10,6 +10,7 @@ class App : Application() {
         INSTANCE = this
     }
 
+
     companion object {
         private lateinit var INSTANCE: App
     }
