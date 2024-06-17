@@ -7,4 +7,3 @@ data class WordItemDto(
     val word: String? = null
 )
 
-
