@@ -6,3 +6,4 @@ data class WordItemDto(
     val phonetic: String? = null,
     val word: String? = null
 )
+
